@@ -9,11 +9,19 @@ while(i <= 10) {
     i++
 }
 
+while(i <= 10) {
+    console.log(i++)
+}
+
 let i = 0;
 
 do {
     console.log(i)
     i++
+} while (i <= 10)
+
+do {
+    console.log(i++)
 } while (i <= 10)
 
 
@@ -66,7 +74,6 @@ function funcDeclaration1(a = 0) {
 }
 
 funcDeclaration1()
-
 
 // method1/funcExpression
 const funcExpression = function (i = 0) {
